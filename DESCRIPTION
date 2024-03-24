@@ -1,0 +1,35 @@
+Package: africalaws
+Type: Package
+Title: Interface to the Laws.Africa API
+Version: 0.0.0.9000
+Authors@R: person(given = "Ernest", 
+                  family = "Guevarra", 
+                  comment = c(ORCID = "0000-0002-4887-4415"), 
+                  email = "ernest@guevarra.io", 
+                  role = c("aut", "cre"))
+Description: Laws.Africa <https://laws.africa> endeavours to facilitate African 
+    governments in offering sustainable, free access to dependable digital laws. 
+    It aims to achieve this by ensuring that the laws are easily accessible, 
+    user-friendly, educational, and reusable. This initiative seeks to empower 
+    citizens with knowledge of their legal rights and obligations while 
+    promoting transparency and accountability within the legal system. 
+    Laws.Africa offers a content application programming interface (API) to 
+    fetch legislative content and metadata. The API is a read-only API for 
+    listing and fetching published versions of legislative works. This package 
+    interfaces with this API to allow access using R.
+License: GPL (>= 3)
+Encoding: UTF-8
+Imports: 
+    askpass,
+    dplyr,
+    httr2,
+    rlang,
+    tibble
+Suggests:
+    jsonlite
+LazyData: true
+RoxygenNote: 7.3.1
+Roxygen: list(markdown = TRUE)
+URL: https://oxford-ihtm.io/africalaws/,https://github.com/OxfordIHTM/africalaws
+BugReports: https://github.com/OxfordIHTM/africalaws/issues
+
