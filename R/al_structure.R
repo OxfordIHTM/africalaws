@@ -32,3 +32,36 @@ al_structure_countries <- function(countries_list) {
     localities = localities_info
   )
 }
+
+#'
+#'
+#'
+al_structure_works <- function(works_list) {
+  set1 <- dplyr::bind_cols(works_list[1:16])
+
+  set2 <- dplyr::bind_cols(works_list[17]) |>
+    dplyr::rename_with(.fn = ~paste0("publication_document_", .x))
+
+  set3 <- dplyr::bind_cols(works_list[18:26])
+
+  set4 <- dplyr::bind_rows(works_list[27]) |>
+    (\(x)
+      {
+        tibble::tibble(
+          date = x$date,
+          dplyr::bind_rows(x$expressions)
+        )
+      }
+    )() |>
+    dplyr::rename_with(.fn = ~paste0("points_in_time_", .x))
+
+  set5 <- dplyr::bind_rows(works_list[28]) |>
+    dplyr::rename_with(.fn = ~paste0("amendments_", .x))
+
+  set6 <- dplyr::bind_rows(works_list[29]) |>
+    dplyr::rename_with(.fn = ~paste0("work_amendments_", .x))
+
+  set7 <- dplyr::bind_cols(works_list[30:32])
+
+
+}
