@@ -2,13 +2,22 @@
 % Please edit documentation in R/al_structure.R
 \name{al_structure_countries}
 \alias{al_structure_countries}
+\alias{al_structure_work}
+\alias{al_structure_works}
 \title{Structure countries output}
 \usage{
 al_structure_countries(countries_list)
+
+al_structure_work(works_list)
+
+al_structure_works(works_list)
 }
 \arguments{
 \item{countries_list}{A countries list output produced from a request for
 countries JSON to the Laws.Africa API.}
+
+\item{works_list}{A works list outputs produced from a request for works
+JSON to the Laws.Africa API.}
 }
 \value{
 A named list of two tibbles the first of which is for \emph{countries}

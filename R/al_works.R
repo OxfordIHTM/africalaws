@@ -11,10 +11,12 @@
 #' @param flatten Logical. Should the output JSON be flattened into a tibble.
 #'   Defeault is TRUE.
 #'
-#' @returns
+#' @returns If `flatten = TRUE`, a tibble of works from specified country.
+#'   Otherwise, a list output created from the JSON output of the request.
 #'
 #' @examples
-#' # example code
+#' if (Sys.getenv("LAWS_AFRICA_TOKEN") != "") al_get_countries()
+#'   al_get_works(country = "za-cpt")
 #'
 #' @rdname al_get
 #' @export
@@ -28,7 +30,7 @@ al_get_works <- function(country,
 
   ## Setup request ----
   req <- httr2::request(base_url) |>
-    httr2::req_url_path_append("akn", country, ".json") |>
+    httr2::req_url_path_append("akn", country) |>
     httr2::req_headers(
       Accept = "application/json",
       Authorization = paste0("Token ", Sys.getenv("LAWS_AFRICA_TOKEN")),
@@ -42,7 +44,7 @@ al_get_works <- function(country,
     (\(x) x$results)()
 
   ## Structure response ----
-  #if (flatten) resp <- al_structure_countries(resp)
+  #if (flatten) resp <- al_structure_works(resp)
 
   ## Return response ----
   resp
