@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# africalaws: Interface to the Laws.Africa API
+# africalaws: Interface to the Laws.Africa API <img src="man/figures/logo.png" width="200" align="right" />
 
 <!-- badges: start -->
 

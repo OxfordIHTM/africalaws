@@ -15,7 +15,7 @@
 #'   Otherwise, a list output created from the JSON output of the request.
 #'
 #' @examples
-#' if (Sys.getenv("LAWS_AFRICA_TOKEN") != "") al_get_countries()
+#' if (Sys.getenv("LAWS_AFRICA_TOKEN") != "")
 #'   al_get_works(country = "za-cpt")
 #'
 #' @rdname al_get
