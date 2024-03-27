@@ -34,7 +34,7 @@ uniquely identified by a work FRBR URI which never changes.
 \examples{
 if (Sys.getenv("LAWS_AFRICA_TOKEN") != "") al_get_countries()
 
-if (Sys.getenv("LAWS_AFRICA_TOKEN") != "") al_get_countries()
+if (Sys.getenv("LAWS_AFRICA_TOKEN") != "")
   al_get_works(country = "za-cpt")
 
 }
