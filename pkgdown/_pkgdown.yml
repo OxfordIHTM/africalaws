@@ -1,0 +1,58 @@
+title: africalaws
+
+url: https://oxford-ihtm.io/africalaws/
+
+template:
+  bootstrap: 5
+  bootswatch: litera
+  theme: haddock
+  ganalytics: #
+
+home:
+  links:
+  - text: Read more about Laws.Africa
+    href: https://laws.africa/about
+
+navbar:
+  bg: primary
+  type: light
+  structure:
+    left:  [home, intro, reference, articles, news]
+    right: [twitter, facebook, linkedin, github]
+
+  components:
+    # articles:
+    #   text: Articles
+    #   menu:
+    #   - text: "ICD-11 Foundation"
+    #     href: articles/icd11_foundation.html
+    twitter:
+      icon: "fab fa-twitter fa-lg"
+      href: http://twitter.com/OxIHTM
+    facebook:
+      icon: "fab fa-facebook fa-lg"
+      href: https://www.facebook.com/MSc-in-International-Health-and-Tropical-Medicine-University-of-Oxford-433056700228246/
+    linkedin:
+      icon: "fab fa-linkedin fa-lg"
+      href: https://www.linkedin.com/company/international-health-and-tropical-medicine
+
+
+reference:
+  - title: Description
+    contents:
+    - africalaws
+
+  - title: Authentication
+    contents:
+    - set_api_token
+
+  - title: Get
+    contents:
+    - al_get_areas
+    - al_get_works
+
+  - title: Utilities
+    contents:
+    - al_structure_areas
+    - al_structure_works
+

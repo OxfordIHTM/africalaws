@@ -1,7 +1,7 @@
 #'
-#' Structure countries output
+#' Structure list outputs
 #'
-#' @param countries_list A countries list output produced from a request for
+#' @param areas_list A countries list output produced from a request for
 #'   countries JSON to the Laws.Africa API.
 #' @param works_list A works list outputs produced from a request for works
 #'   JSON to the Laws.Africa API.
@@ -12,9 +12,9 @@
 #' @rdname al_structure
 #' @export
 #'
-al_structure_countries <- function(countries_list) {
+al_structure_areas <- function(areas_list) {
   ## Flatten list ----
-  countries_df <- dplyr::bind_rows(countries_list)
+  countries_df <- dplyr::bind_rows(areas_list)
 
   ## Main unit ----
   countries_info <- countries_df |>
