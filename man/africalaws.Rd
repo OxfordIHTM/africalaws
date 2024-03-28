@@ -20,7 +20,9 @@ with this API to allow access using R.
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://oxford-ihtm.io/africalaws/,https://github.com/OxfordIHTM/africalaws}
+  \item \url{https://oxford-ihtm.io/africalaws/}
+  \item \url{https://github.com/OxfordIHTM/africalaws}
+  \item \url{http://oxford-ihtm.io/africalaws/}
   \item Report bugs at \url{https://github.com/OxfordIHTM/africalaws/issues}
 }
 
