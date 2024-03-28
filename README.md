@@ -79,14 +79,16 @@ follows:
 citation("africalaws")
 #> To cite africalaws in publications use:
 #> 
-#>   Ernest Guevarra (2024). africalaws: Interface to the Laws.Africa API.
-#>   R package version 0.0.9000. URL https://oxford-ihtm.io/africalaws/
+#>   Jillian Francise Lee, Sanjeev Pugazhendhi, Ernest Guevarra, and
+#>   Proochista Ariana (2024). africalaws: Interface to the Laws.Africa
+#>   API. R package version 0.0.9000. URL
+#>   https://oxford-ihtm.io/africalaws/
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
 #>   @Manual{,
 #>     title = {africalaws: Interface to the Laws.Africa API},
-#>     author = {{Ernest Guevarra}},
+#>     author = {{Jillian Francise Lee} and {Sanjeev Pugazhendhi} and {Ernest Guevarra} and {Proochista Ariana}},
 #>     year = {2024},
 #>     note = {R package version 0.0.9000},
 #>     url = {https://oxford-ihtm.io/africalaws/},

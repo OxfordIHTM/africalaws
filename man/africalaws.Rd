@@ -20,7 +20,6 @@ with this API to allow access using R.
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://oxford-ihtm.io/africalaws/}
   \item \url{https://github.com/OxfordIHTM/africalaws}
   \item \url{http://oxford-ihtm.io/africalaws/}
   \item Report bugs at \url{https://github.com/OxfordIHTM/africalaws/issues}
@@ -28,7 +27,14 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Ernest Guevarra \email{ernest@guevarra.io} (\href{https://orcid.org/0000-0002-4887-4415}{ORCID})
+\strong{Maintainer}: Ernest Guevarra \email{ernest@guevarra.io} (\href{https://orcid.org/0000-0002-4887-4415}{ORCID}) [copyright holder]
+
+Authors:
+\itemize{
+  \item Jillian Francise Lee [copyright holder]
+  \item Sanjeev Pugazhendhi [copyright holder]
+  \item Proochista Ariana [copyright holder]
+}
 
 }
 \keyword{internal}

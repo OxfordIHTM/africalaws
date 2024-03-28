@@ -72,3 +72,4 @@ citation("africalaws")
 Feedback, bug reports and feature requests are welcome; file issues or seek support [here](https://github.com/OxfordIHTM/africalaws/issues). If you would like to contribute to the package, please see our [contributing guidelines](https://oxford-ihtm.io/africalaws/CONTRIBUTING.html).
 
 This project is released with a [Contributor Code of Conduct](https://oxford-ihtm.io/africalaws/CODE_OF_CONDUCT.html). By participating in this project you agree to abide by its terms.
+
