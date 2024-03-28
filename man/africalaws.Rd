@@ -33,6 +33,7 @@ Authors:
 \itemize{
   \item Jillian Francise Lee [copyright holder]
   \item Sanjeev Pugazhendhi [copyright holder]
+  \item Proochista Ariana [copyright holder]
 }
 
 }
