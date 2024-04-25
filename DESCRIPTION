@@ -4,11 +4,11 @@ Title: Interface to the Laws.Africa API
 Version: 0.0.0.9000
 Authors@R: c(
     person("Jillian Francise", "Lee", role = c("aut", "cph")),
-    person("Sanjeev", "Pugazhendhi", role = c("aut", "cph")),
     person("Ernest", "Guevarra", 
            comment = c(ORCID = "0000-0002-4887-4415"), 
            email = "ernest@guevarra.io", role = c("aut", "cre", "cph")),
-    person("Proochista", "Ariana", role = c("aut", "cph")))
+    person("Sanjeev", "Pugazhendhi", role = "ths"),
+    person("Proochista", "Ariana", role = c("ths", "cph")))
 Description: Laws.Africa <https://laws.africa> endeavours to facilitate African 
     governments in offering sustainable, free access to dependable digital laws. 
     It aims to achieve this by ensuring that the laws are easily accessible, 
