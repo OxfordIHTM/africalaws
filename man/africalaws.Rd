@@ -32,8 +32,12 @@ Useful links:
 Authors:
 \itemize{
   \item Jillian Francise Lee [copyright holder]
-  \item Sanjeev Pugazhendhi [copyright holder]
-  \item Proochista Ariana [copyright holder]
+}
+
+Other contributors:
+\itemize{
+  \item Sanjeev Pugazhendhi [thesis advisor]
+  \item Proochista Ariana [thesis advisor, copyright holder]
 }
 
 }
