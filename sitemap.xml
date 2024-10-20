@@ -1,36 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://oxford-ihtm.io/africalaws/404.html</loc>
-  </url>
-  <url>
-    <loc>https://oxford-ihtm.io/africalaws/CODE_OF_CONDUCT.html</loc>
-  </url>
-  <url>
-    <loc>https://oxford-ihtm.io/africalaws/CONTRIBUTING.html</loc>
-  </url>
-  <url>
-    <loc>https://oxford-ihtm.io/africalaws/LICENSE.html</loc>
-  </url>
-  <url>
-    <loc>https://oxford-ihtm.io/africalaws/authors.html</loc>
-  </url>
-  <url>
-    <loc>https://oxford-ihtm.io/africalaws/index.html</loc>
-  </url>
-  <url>
-    <loc>https://oxford-ihtm.io/africalaws/reference/africalaws.html</loc>
-  </url>
-  <url>
-    <loc>https://oxford-ihtm.io/africalaws/reference/al_authenticate.html</loc>
-  </url>
-  <url>
-    <loc>https://oxford-ihtm.io/africalaws/reference/al_get.html</loc>
-  </url>
-  <url>
-    <loc>https://oxford-ihtm.io/africalaws/reference/al_structure.html</loc>
-  </url>
-  <url>
-    <loc>https://oxford-ihtm.io/africalaws/reference/index.html</loc>
-  </url>
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>https://oxford-ihtm.io/africalaws/404.html</loc></url>
+<url><loc>https://oxford-ihtm.io/africalaws/CODE_OF_CONDUCT.html</loc></url>
+<url><loc>https://oxford-ihtm.io/africalaws/CONTRIBUTING.html</loc></url>
+<url><loc>https://oxford-ihtm.io/africalaws/LICENSE.html</loc></url>
+<url><loc>https://oxford-ihtm.io/africalaws/authors.html</loc></url>
+<url><loc>https://oxford-ihtm.io/africalaws/index.html</loc></url>
+<url><loc>https://oxford-ihtm.io/africalaws/reference/africalaws.html</loc></url>
+<url><loc>https://oxford-ihtm.io/africalaws/reference/al_authenticate.html</loc></url>
+<url><loc>https://oxford-ihtm.io/africalaws/reference/al_get.html</loc></url>
+<url><loc>https://oxford-ihtm.io/africalaws/reference/al_structure.html</loc></url>
+<url><loc>https://oxford-ihtm.io/africalaws/reference/index.html</loc></url>
 </urlset>
+
