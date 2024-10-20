@@ -37,9 +37,9 @@ working version.
 
 Currently, the package provides functions for:
 
-- Authenticating with the Laws.Africa API;
-- Performing a call to the `countries` API endpoint; and,
-- Performing a call to the `works` API endpoint.
+  - Authenticating with the Laws.Africa API;
+  - Performing a call to the `countries` API endpoint; and,
+  - Performing a call to the `works` API endpoint.
 
 From here, the plan is to continue developing functions that wrap the
 various available [API
@@ -48,7 +48,7 @@ endpoints](https://developers.laws.africa/api/about-the-api).
 ## Installation
 
 `africalaws` is not yet on CRAN but can be installed from the [Oxford
-IHTM R universe](https://oxfordihtm.r-universe.dev) as follows:
+IHTM R Universe](https://oxfordihtm.r-universe.dev) as follows:
 
 ``` r
 install.packages(
@@ -61,13 +61,13 @@ install.packages(
 
 The following vignettes describe how to use the `africalaws` package.
 
-- Authenticating with the Laws.Africa API
+  - Authenticating with the Laws.Africa API
 
-- Listing out countries and areas/locations with available works from
-  the Laws.Africa API
+  - Listing out countries and areas/locations with available works from
+    the Laws.Africa API
 
-- Listing out works for a specific country or areas/locations that are
-  available from the Laws.Africa API
+  - Listing out works for a specific country or areas/locations that are
+    available from the Laws.Africa API
 
 ## Citation
 
@@ -79,16 +79,15 @@ follows:
 citation("africalaws")
 #> To cite africalaws in publications use:
 #> 
-#>   Jillian Francise Lee, Sanjeev Pugazhendhi, Ernest Guevarra, and
-#>   Proochista Ariana (2024). africalaws: Interface to the Laws.Africa
-#>   API. R package version 0.0.9000. URL
-#>   https://oxford-ihtm.io/africalaws/
+#>   Jillian Francise Lee, Ernest Guevarra (2024). _africalaws: Interface
+#>   to the Laws.Africa API_. R package version 0.0.9000,
+#>   <https://oxford-ihtm.io/africalaws/>.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
 #>   @Manual{,
 #>     title = {africalaws: Interface to the Laws.Africa API},
-#>     author = {{Jillian Francise Lee} and {Sanjeev Pugazhendhi} and {Ernest Guevarra} and {Proochista Ariana}},
+#>     author = {{Jillian Francise Lee} and {Ernest Guevarra}},
 #>     year = {2024},
 #>     note = {R package version 0.0.9000},
 #>     url = {https://oxford-ihtm.io/africalaws/},

@@ -30,7 +30,7 @@ Imports:
 Suggests:
     jsonlite
 LazyData: true
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.2
 Roxygen: list(markdown = TRUE)
 URL: https://github.com/OxfordIHTM/africalaws, http://oxford-ihtm.io/africalaws/
 BugReports: https://github.com/OxfordIHTM/africalaws/issues
