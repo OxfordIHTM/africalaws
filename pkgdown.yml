@@ -2,7 +2,7 @@ pandoc: 3.1.11
 pkgdown: 2.1.1
 pkgdown_sha: ~
 articles: {}
-last_built: 2024-10-20T22:26Z
+last_built: 2024-10-31T16:30Z
 urls:
   reference: https://oxford-ihtm.io/africalaws/reference
   article: https://oxford-ihtm.io/africalaws/articles
