@@ -40,7 +40,7 @@ From here, the plan is to continue developing functions that wrap the various av
 
 ## Installation
 
-`africalaws` is not yet on CRAN but can be installed from the [Oxford IHTM R Universe](https://oxfordihtm.r-universe.dev) as follows:
+`africalaws` is not yet on CRAN but can be installed from the [Oxford iHealth R Universe](https://oxfordihtm.r-universe.dev) as follows:
 
 ```{r install-r-universe, eval = FALSE}
 install.packages(

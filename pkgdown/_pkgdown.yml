@@ -7,7 +7,7 @@ development:
 
 template:
   bootstrap: 5
-  bootswatch: journal
+  bootswatch: sandstone
   theme: breeze-light
   ganalytics: G-9C8W5NMF8N
 
@@ -17,7 +17,7 @@ home:
     href: https://laws.africa/about
 
 navbar:
-  bg: info
+  bg: primary
   type: light
   structure:
     left:  [home, intro, reference, articles, news]

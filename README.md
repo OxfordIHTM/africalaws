@@ -48,7 +48,7 @@ endpoints](https://developers.laws.africa/api/about-the-api).
 ## Installation
 
 `africalaws` is not yet on CRAN but can be installed from the [Oxford
-IHTM R Universe](https://oxfordihtm.r-universe.dev) as follows:
+iHealth R Universe](https://oxfordihtm.r-universe.dev) as follows:
 
 ``` r
 install.packages(
@@ -79,8 +79,8 @@ follows:
 citation("africalaws")
 #> To cite africalaws in publications use:
 #> 
-#>   Jillian Francise Lee, Ernest Guevarra (2024). _africalaws: Interface
-#>   to the Laws.Africa API_. R package version 0.0.9000,
+#>   Jillian Francise Lee, Ernest Guevarra (2024). _africalaws:
+#>   Interface to the Laws.Africa API_. R package version 0.0.9000,
 #>   <https://oxford-ihtm.io/africalaws/>.
 #> 
 #> A BibTeX entry for LaTeX users is
