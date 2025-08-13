@@ -20,6 +20,8 @@ Description: Laws.Africa <https://laws.africa> endeavours to facilitate African
     listing and fetching published versions of legislative works. This package 
     interfaces with this API to allow access using R.
 License: GPL (>= 3)
+Depends: 
+    R (>= 4.1.0)
 Encoding: UTF-8
 Imports: 
     askpass,
