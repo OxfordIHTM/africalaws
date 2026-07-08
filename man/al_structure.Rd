@@ -4,6 +4,7 @@
 \alias{al_structure_areas}
 \alias{al_structure_work}
 \alias{al_structure_works}
+\alias{al_structure_toc}
 \title{Structure list outputs}
 \usage{
 al_structure_areas(areas_list)
@@ -11,6 +12,8 @@ al_structure_areas(areas_list)
 al_structure_work(works_list)
 
 al_structure_works(works_list)
+
+al_structure_toc(toc_list)
 }
 \arguments{
 \item{areas_list}{A countries list output produced from a request for
@@ -18,10 +21,17 @@ countries JSON to the Laws.Africa API.}
 
 \item{works_list}{A works list outputs produced from a request for works
 JSON to the Laws.Africa API.}
+
+\item{toc_list}{A table-of-contents list output produced from a request
+for a work's TOC JSON to the Laws.Africa API.}
 }
 \value{
 A named list of two tibbles the first of which is for \emph{countries}
 information and the second for \emph{localities} information.
+
+A tibble where each row is a top-level Table of Contents entry.
+Nested entries (e.g. sections within a chapter) remain as a list-column
+named \code{children}.
 }
 \description{
 Structure list outputs

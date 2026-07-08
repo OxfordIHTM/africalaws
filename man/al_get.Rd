@@ -3,11 +3,14 @@
 \name{al_get_areas}
 \alias{al_get_areas}
 \alias{al_get_works}
+\alias{al_get_toc}
 \title{Retrieve various available information from Laws.Africa}
 \usage{
 al_get_areas(base_url = "https://api.laws.africa/v3/", flatten = TRUE)
 
 al_get_works(area, base_url = "https://api.laws.africa/v3/", flatten = TRUE)
+
+al_get_toc(frbr_uri, base_url = "https://api.laws.africa/v3/", flatten = TRUE)
 }
 \arguments{
 \item{base_url}{Base URL for the Laws.Africa API. Current default set to
@@ -20,6 +23,10 @@ Defeault is TRUE.}
 information is to be retrieved from the Laws.API. For countries, this will
 be an alpha-2 ISO 3166-1 country code. For other areas, this can take
 many formats.}
+
+\item{frbr_uri}{A full FRBR URI path (excluding the leading "akn/"),
+identifying a specific work expression, e.g.
+"za-cpt/act/by-law/2011/animal/eng".}
 }
 \value{
 If \code{flatten = TRUE}, a named list of two tibbles the first of which
@@ -38,5 +45,12 @@ changes.
 
 \examples{
 if (Sys.getenv("LAWS_AFRICA_TOKEN") != "") al_get_areas()
+
+if (FALSE) {
+  # Requires a token with Content API access (Sandbox-tier tokens will
+  # receive a 403 even when a valid token is present, since Content API
+  # access is plan-dependent, not just token-dependent)
+  al_get_toc(frbr_uri = "za-cpt/act/by-law/2011/animal/eng")
+}
 
 }

@@ -110,3 +110,36 @@ al_structure_works <- function(works_list) {
   ) |>
     dplyr::bind_rows()
 }
+
+
+#'
+#' @param toc_list A table-of-contents list output produced from a request
+#'   for a work's TOC JSON to the Laws.Africa API.
+#'
+#' @returns A tibble where each row is a top-level Table of Contents entry.
+#'   Nested entries (e.g. sections within a chapter) remain as a list-column
+#'   named `children`.
+#'
+#' @rdname al_structure
+#' @export
+#'
+al_structure_toc <- function(toc_list) {
+  ## Extract children explicitly, before binding ----
+  ## (dplyr::bind_rows() unwraps single-child nested lists
+  ## inconsistently, so children must be assigned manually)
+  children <- lapply(toc_list, function(x) x[["children"]])
+
+  ## Strip children out of each entry before binding scalar fields ----
+  toc_list_flat <- lapply(toc_list, function(x) {
+    x[["children"]] <- NULL
+    x
+  })
+
+  ## Bind remaining (scalar) fields into a tibble ----
+  toc_df <- dplyr::bind_rows(toc_list_flat)
+
+  ## Reattach children as an explicit list-column ----
+  toc_df$children <- children
+
+  toc_df
+}

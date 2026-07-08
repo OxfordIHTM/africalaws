@@ -15,8 +15,7 @@
 #' @docType package
 #' @keywords internal
 #' @name africalaws
-#' @importFrom httr2 request req_url_path_append req_headers req_perform
-#'   resp_body_json
+#' @importFrom httr2 request req_url_path_append req_headers req_perform resp_body_json
 #' @importFrom tibble tibble
 #' @importFrom dplyr bind_rows bind_cols
 #' @importFrom askpass askpass

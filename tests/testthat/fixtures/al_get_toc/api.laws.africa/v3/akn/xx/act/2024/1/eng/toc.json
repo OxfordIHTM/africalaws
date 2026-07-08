@@ -1,0 +1,33 @@
+{
+  "toc": [
+    {
+      "type": "preamble",
+      "subcomponent": "preamble",
+      "component": "main",
+      "title": "Preamble",
+      "url": "https://api.laws.africa/v3/akn/xx/act/2024/1/eng/main/preamble"
+    },
+    {
+      "type": "chapter",
+      "id": "chapter-1",
+      "component": "main",
+      "subcomponent": "chapter/1",
+      "num": "1",
+      "heading": "Definitions",
+      "title": "Chapter 1 - Definitions",
+      "url": "https://api.laws.africa/v3/akn/xx/act/2024/1/eng/main/chapter/1",
+      "children": [
+        {
+          "type": "section",
+          "id": "section-1",
+          "component": "main",
+          "subcomponent": "section/1",
+          "num": "1",
+          "heading": "Definitions",
+          "title": "1. Definitions",
+          "url": "https://api.laws.africa/v3/akn/xx/act/2024/1/eng/main/section/1"
+        }
+      ]
+    }
+  ]
+}
