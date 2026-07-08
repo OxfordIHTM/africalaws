@@ -86,3 +86,49 @@ al_get_works <- function(area,
   ## Return response ----
   resp
 }
+
+
+#'
+#' @param frbr_uri A full FRBR URI path (excluding the leading "akn/"),
+#'   identifying a specific work expression, e.g.
+#'   "za-cpt/act/by-law/2011/animal/eng".
+#'
+#' @examples
+#' if (FALSE) {
+#'   # Requires a token with Content API access (Sandbox-tier tokens will
+#'   # receive a 403 even when a valid token is present, since Content API
+#'   # access is plan-dependent, not just token-dependent)
+#'   al_get_toc(frbr_uri = "za-cpt/act/by-law/2011/animal/eng")
+#' }
+#'
+#' @rdname al_get
+#' @export
+#'
+al_get_toc <- function(frbr_uri,
+                       base_url = "https://api.laws.africa/v3/",
+                       flatten = TRUE) {
+  ## Check token ----
+  if (Sys.getenv("LAWS_AFRICA_TOKEN") == "")
+    stop("Token is missing. Set token with `set_api_token()` and try again.")
+
+  ## Setup request ----
+  req <- httr2::request(base_url) |>
+    httr2::req_url_path_append("akn", frbr_uri, "toc.json") |>
+    httr2::req_headers(
+      Accept = "application/json",
+      Authorization = paste0("Token ", Sys.getenv("LAWS_AFRICA_TOKEN")),
+      .redact = "Authorization"
+    )
+
+  ## Perform request ----
+  resp <- req |>
+    httr2::req_perform() |>
+    httr2::resp_body_json() |>
+    (\(x) x$toc)()
+
+  ## Structure response ----
+  if (flatten) resp <- al_structure_toc(resp)
+
+  ## Return response ----
+  resp
+}
